@@ -1,0 +1,15 @@
+2023-09-18 10:36:52.929  INFO [,,] 24148 --- [main] c.e.tracedemo.TracedemoApplication       : Starting TracedemoApplication using Java 1.8.0_352-352 on PC190198 with PID 24148 (D:\Program\Java Maven\tracedemo\target\classes started by CD082 in D:\Program\Java Maven\tracedemo)
+2023-09-18 10:36:52.938  INFO [,,] 24148 --- [main] c.e.tracedemo.TracedemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-09-18 10:36:54.901  INFO [,,] 24148 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=39ac688d-1f30-3d03-857e-ef2a57d74ad3
+2023-09-18 10:36:57.299  INFO [,,] 24148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-18 10:36:57.354  INFO [,,] 24148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-18 10:36:57.355  INFO [,,] 24148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-09-18 10:36:57.701  INFO [,,] 24148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-18 10:36:57.701  INFO [,,] 24148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4617 ms
+2023-09-18 10:36:59.231  INFO [,,] 24148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-18 10:36:59.338  INFO [,,] 24148 --- [main] c.e.tracedemo.TracedemoApplication       : Started TracedemoApplication in 8.194 seconds (JVM running for 10.565)
+2023-09-18 10:37:00.857  INFO [,c974ca0dbcf3bda6,c974ca0dbcf3bda6] 24148 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-18 10:37:00.858  INFO [,c974ca0dbcf3bda6,c974ca0dbcf3bda6] 24148 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-18 10:37:00.860  INFO [,c974ca0dbcf3bda6,c974ca0dbcf3bda6] 24148 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-09-18 10:37:00.985  INFO [,c974ca0dbcf3bda6,c974ca0dbcf3bda6] 24148 --- [http-nio-8080-exec-2] c.e.tracedemo.SleuthTraceIdController    : Trace ID c974ca0dbcf3bda6
+2023-09-18 10:37:00.998  INFO [,c974ca0dbcf3bda6,c974ca0dbcf3bda6] 24148 --- [http-nio-8080-exec-2] c.e.tracedemo.SleuthTraceIdController    : Span ID c974ca0dbcf3bda6
